@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienenue sur SYMSHOP !
+{% endblock %}
+
+{% block body %}
+
+	{% include "_incs/_slider.html.twig" %}
+
+	<div class="container pt-3">
+		<div class="p-5 bg-light">
+			<h1 class="display-3">Bienvenue sur SYMSHOP</h1>
+			<p class="lead">Nos nouveaux composants aux meilleurs prix</p>
+			<hr class="my-2">
+			<p>Voir nos produits</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="#" role="button">Boutique</a>
+			</p>
+		</div>
+
+		<div class="row py-5 rounded gap-1 justify-content-center">
+
+			<div class="col-3 col-lg-3 col-sm-12 bg-success text-white text-center">
+				<i class="fa-solid fa-lock"></i>
+				<p class="text-white text-center">Produits de qualités, délivrés par des marques reconues</p>
+			</div>
+
+			<div class="col-3 col-lg-3 col-sm-12 py-5 bg-warning text-white
+																														 text-center ">
+				<i class="fa-solid fa-check fa-2 "></i>
+				<p class="text-white text-center">Nos moyens de paiement sont sécurisés</p>
+
+			</div>
+
+			<div class="col-3 col-lg-3 col-sm-12 py-5 bg-info text-white
+																														 text-center ">
+				<i class="fa-solid fa-truck-fast fa-2 "></i>
+				<p class="text-white text-center">Livraison rapide assurée, dans toute la France</p>
+			</div>
+
+			<section class="text-center my-5">
+
+				<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure saepe enim quas quaerat molestias ab soluta necessitatibus nemo suscipit repellat optio, fugit et officiis rem quia magni quidem placeat modi.
+															Illo modi dicta est, non distinctio consequuntur a! Quis iusto beatae, repudiandae illum eum est repellendus doloremque quos excepturi ex sit earum, voluptates exercitationem aliquid natus quia sequi veniam suscipit?
+				</p>
+			</section>
+		</div>
+
+	{% endblock %}
